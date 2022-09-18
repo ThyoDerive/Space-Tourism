@@ -40,7 +40,7 @@ nav {
     width: 60%;
     display: flex;
     justify-content: space-between;
-    padding: 39px 20% 38px 10%;
+    padding: 39px 15% 38px 10%;
     background-color: rgba(255, 255, 255, 0.04);
     backdrop-filter: blur(20px);
 }
