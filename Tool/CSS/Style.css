@@ -1,0 +1,50 @@
+header {
+    width: 100%;
+    height: 100vh;
+    background-image: url('../../assets/home/background-home-desktop.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    padding: 55px 40px;
+    padding-right: 0;
+}
+
+.Hr-Navbar {
+    z-index: 9;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.2);
+    width: 35vw;
+    left: 10vw;
+    border: 0;
+}
+
+.Onglets-Container {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    padding: 39px 123px 38px 125px;
+    background-color: rgba(255, 255, 255, 0.04);
+    backdrop-filter: blur(20px);
+}
+
+.Onglet {
+    text-transform: uppercase;
+    cursor: pointer;
+    position: relative;
+}
+
+.OngletActive::after {
+    content:" ";
+    position: absolute;
+    bottom: -200%;
+    left: -10%;
+    width: 120%;
+    height: 3px;
+    background-color: white;
+}
