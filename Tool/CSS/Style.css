@@ -1,10 +1,15 @@
+/* Header */
+
 header {
+    overflow-y: hidden;
     width: 100%;
     height: 100vh;
     background-image: url('../../assets/home/background-home-desktop.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+/* Navbar Header */
 
 nav {
     display: flex;
@@ -13,6 +18,7 @@ nav {
     align-items: center;
     padding: 55px 40px;
     padding-right: 0;
+    padding-bottom: 0;
 }
 
 .Hr-Navbar {
@@ -24,17 +30,22 @@ nav {
     border: 0;
 }
 
+.NumberOnglet {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+}
+
 .Onglets-Container {
     width: 60%;
     display: flex;
     justify-content: space-between;
-    padding: 39px 123px 38px 125px;
+    padding: 39px 20% 38px 10%;
     background-color: rgba(255, 255, 255, 0.04);
     backdrop-filter: blur(20px);
 }
 
 .Onglet {
-    text-transform: uppercase;
     cursor: pointer;
     position: relative;
 }
@@ -47,4 +58,51 @@ nav {
     width: 120%;
     height: 3px;
     background-color: white;
+}
+
+#Menu-NavBar {
+    display: none;
+}
+
+/* Hero Header */
+
+#Hero {
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 131px 165px;
+}
+
+.HeroLeft {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 50%;
+}
+
+.Hero-Paragraph {
+    text-align: justify;
+    width: 60%;
+}
+
+.HeroRight {
+    width: 50%;
+    display: flex;
+    justify-content: end;
+}
+
+.Explore-Hero {
+    padding:140px 80px;
+    border-radius: 50%;
+    background-color: white;
+    color: black;
+    box-shadow: 0px;
+    transition: .4s ease-in;
+    transition-property: box-shadow;
+}
+
+.Explore-Hero:hover {
+    box-shadow: 0px 0px 0px 100px rgba(255, 255, 255, 0.1);
+    transition: 0.2s ease-out;
 }

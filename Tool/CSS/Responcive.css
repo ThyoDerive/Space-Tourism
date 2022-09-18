@@ -1,0 +1,123 @@
+@media only screen and (min-width: 600px) and (max-width: 990px){
+
+    /* Header */
+
+    header {
+        background-image: url('../../assets/home/background-home-tablet.jpg');
+    }
+
+    /* NavBar */
+
+    nav {
+        padding: 0 0 0 39px;
+    }
+
+    .Hr-Navbar {
+        display: none;
+    }
+
+    .NumberOnglet {
+        display: none;
+    }
+
+    .Onglets-Container {
+        padding: 38px 48px;
+    }
+
+    /* Hero Header */
+
+    #Hero {
+        flex-direction: column;
+    }
+
+    .HeroLeft {
+        width: 100%;
+        align-items: center;
+    }
+
+    .Hero-Paragraph {
+        text-align: center;
+        width: 100%;
+    }
+
+    .HeroRight {
+        width: 100%;
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+
+    /* Header */
+
+    header {
+        background-image: url('../../assets/home/background-home-mobile.jpg');
+    }
+
+    /* NavBar */
+
+    nav {
+        padding: 33px 24px;
+    }
+
+    .Hr-Navbar {
+        display: none;
+    }
+
+    .Onglets-Container{
+        display: none;
+    }
+
+    #Menu-NavBar {
+        display: flex;
+        justify-content: end;
+        width: fit-content;
+    }
+
+    /* Hero Header */
+
+    #Hero {
+        flex-direction: column;
+        margin: 0 24px;
+        margin-top: 48px;
+    }
+
+    .HeroLeft {
+        width: 100%;
+        align-items: center;
+    }
+    
+    .Text-Hero {
+        font-size: 16px;
+    }
+
+    .Title-Hero {
+        font-size: 80px;
+    }
+
+    .Hero-Paragraph {
+        text-align: center;
+        width: 100%;
+        font-size: 15px;
+    }
+
+    .HeroRight {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .Explore-Hero {
+        padding: 80px 25px;
+        border-radius: 50%;
+        background-color: white;
+        color: black;
+        box-shadow: 0px;
+        transition: .4s ease-in;
+        transition-property: box-shadow;
+    }
+    
+    .Explore-Hero:hover {
+        box-shadow: 0px 0px 0px 50px rgba(255, 255, 255, 0.1);
+        transition: 0.2s ease-out;
+    }
+}
